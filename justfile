@@ -27,7 +27,7 @@ dev:
 	@pnpm run dev
 
 serve *ARGS:
-	@php artisan serve --host 0.0.0.0 {{ARGS}}
+	@php artisan serve --host 127.0.0.1 --port 8888 {{ARGS}}
 
 run: serve
 

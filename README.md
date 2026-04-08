@@ -30,20 +30,20 @@ Built using using laravel 10, inertia, vue 3 and Sakai admin template.
 
 # Installation
 ``` bash
-git clone https://github.com/slametriky/laravel-sakai.git
-cd laravel-sakai
+git clone https://github.com/r14r/Starterkit_Laravel-Inertia-PrimeVue-Sakai.git starterkit
+cd starterkit
 composer install
 npm install
 cp .env.example .env
 php artisan key:generate
 
 SETTING UP DB CONNECTION IN .env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sakai
-DB_USERNAME=root
-DB_PASSWORD=
+DB_CONNECTION=sqlite
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=sakai
+# DB_USERNAME=root
+ #DB_PASSWORD=
 
 php artisan migrate:fresh --seed
 
@@ -68,4 +68,10 @@ email : operator@operator.com
 password : operator
 ```
 # Note
-If you find some bug please create the issue or contact me on gmail: riyanriky@gmail.com
+
+If you find some bug please create the issue
+
+# Credits
+
+Thanks for riyanriky@gmail.com for the original version
+

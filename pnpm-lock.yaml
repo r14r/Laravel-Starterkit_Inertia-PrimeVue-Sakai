@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@primevue/themes':
-        specifier: ^4.1.0
-        version: 4.1.0
+        specifier: ^4.1.1
+        version: 4.1.1
       chart.js:
-        specifier: 4.4.4
-        version: 4.4.4
+        specifier: 4.4.6
+        version: 4.4.6
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -21,8 +21,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       primevue:
-        specifier: ^4.1.0
-        version: 4.1.0(vue@3.5.12)
+        specifier: ^4.1.1
+        version: 4.1.1(vue@3.5.12)
       vue-router:
         specifier: ^4.4.5
         version: 4.4.5(vue@3.5.12)
@@ -31,8 +31,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(vue@3.5.12)
       '@primevue/auto-import-resolver':
-        specifier: ^4.1.0
-        version: 4.1.0
+        specifier: ^4.1.1
+        version: 4.1.1
       '@rushstack/eslint-patch':
         specifier: ^1.10.4
         version: 1.10.4
@@ -41,10 +41,10 @@ importers:
         version: 0.5.9(tailwindcss@3.4.14)
       '@vitejs/plugin-vue':
         specifier: ^5.1.4
-        version: 5.1.4(vite@5.4.9(sass@1.79.5))(vue@3.5.12)
+        version: 5.1.4(vite@5.4.10(sass@1.80.4))(vue@3.5.12)
       '@vue/eslint-config-prettier':
-        specifier: ^10.0.0
-        version: 10.0.0(eslint@9.12.0(jiti@1.21.6))(prettier@3.3.3)
+        specifier: ^10.1.0
+        version: 10.1.0(eslint@9.12.0(jiti@1.21.6))(prettier@3.3.3)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.47)
@@ -53,7 +53,7 @@ importers:
         version: 1.7.7
       laravel-vite-plugin:
         specifier: ^1.0.5
-        version: 1.0.5(vite@5.4.9(sass@1.79.5))
+        version: 1.0.5(vite@5.4.10(sass@1.80.4))
       postcss:
         specifier: ^8.4.47
         version: 8.4.47
@@ -61,8 +61,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       sass:
-        specifier: ^1.79.5
-        version: 1.79.5
+        specifier: ^1.80.4
+        version: 1.80.4
       tailwindcss:
         specifier: ^3.4.14
         version: 3.4.14
@@ -73,8 +73,8 @@ importers:
         specifier: ^0.27.4
         version: 0.27.4(@babel/parser@7.25.8)(rollup@4.24.0)(vue@3.5.12)
       vite:
-        specifier: ^5.4.9
-        version: 5.4.9(sass@1.79.5)
+        specifier: ^5.4.10
+        version: 5.4.10(sass@1.80.4)
       vue:
         specifier: ^3.5.12
         version: 3.5.12
@@ -430,26 +430,26 @@ packages:
     resolution: {integrity: sha512-AaDIeRFlsbkVTk2s0mlEjnGSLi31X669NVwo+n+AVAnBdDiQznjipNTpHbOobVBtjOKZize74PChK6uoaSBRUw==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/auto-import-resolver@4.1.0':
-    resolution: {integrity: sha512-5s6rT86VxUDgiD39lb/iq2Fv3SrN5PyqP8sGY9NLfrrjqCp7HxvT4b76emYZa/XoEwA2PgF6V7znMBXwc3vHsw==}
+  '@primevue/auto-import-resolver@4.1.1':
+    resolution: {integrity: sha512-IMRxgqgMFjtMJ6+pvGu98amnY44FUUhDyzk6CqEjMkirj0rI9t6aQFvKcBEyf0cwuIveeSggBHS8cbaytZNjuA==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/core@4.1.0':
-    resolution: {integrity: sha512-YulYm+PtoYSyLv/pNl3oyjvN+C9Ba/RSpW3bZAVkMRz9SWSA6lj2QaN+/9uxhokWZPL63zCHsHzIBV5YMvZshQ==}
+  '@primevue/core@4.1.1':
+    resolution: {integrity: sha512-jUDrTh3g0FskTdD6rCCsoWfxKky0R7959p7vnaNYI6wMLreaTL3yC3nzYlEniIpb+F51Sm3KJ1eSJBN6DnSB8Q==}
     engines: {node: '>=12.11.0'}
     peerDependencies:
       vue: ^3.0.0
 
-  '@primevue/icons@4.1.0':
-    resolution: {integrity: sha512-npY8Jy3HX1+Qbv1jCRdAevOcOj355b0x1Wmepa7omhgQFIUVs2o18HGohYml4HJpmEAu6aKnUIhhodFMuglMeQ==}
+  '@primevue/icons@4.1.1':
+    resolution: {integrity: sha512-Ybeb+AHUsVybITuYNwS7goqWcXLLgCDSiCPoymyYwYkzn5qLakvJbQH1EX8lGOsrvqK0hG+s+n7Wm2MHJ8A72w==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/metadata@4.1.0':
-    resolution: {integrity: sha512-mQRFiZjn3QFF6AFe5bOYMc9I9day+VzxNSKOzuGgJj/fb3mB8bTwmORvDtzhaZs9E6FtAjmL6FRdL9rPYwUOpw==}
+  '@primevue/metadata@4.1.1':
+    resolution: {integrity: sha512-5QQKjtNbgazpX1Q9z8Dc2szUEyvQcEif8kMOXmmWuIuUzCe3QkjbWyk29y7Cukkxk8B7iciDKLMzvGsWpwzsWA==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/themes@4.1.0':
-    resolution: {integrity: sha512-EfAvNAI78rq8uPA+XFmHlACUXj2YpSM+PFjnFrTwHjqdSkmrBDweysNEI0p+/rj7l3rZBZLedEvbHcjP+9iumA==}
+  '@primevue/themes@4.1.1':
+    resolution: {integrity: sha512-ec2gBN2vP0ydGtGAzC0nYCFqYN7CzvXxnlJqcvcPIo3rP/pcdj+FkzAe3y2DMG3OorYtqdzoyGtBefQrx3v5ag==}
     engines: {node: '>=12.11.0'}
 
   '@rollup/pluginutils@5.1.2':
@@ -577,8 +577,8 @@ packages:
   '@vue/devtools-api@6.6.4':
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
-  '@vue/eslint-config-prettier@10.0.0':
-    resolution: {integrity: sha512-iDEjsfT+UXQTJfe+4mstb/B5BSZ5RpL6FO3F97XxElIXdD04gkH+F7PR4fBMEVyJi4892G4LQVPQ8oXxVyp8Dw==}
+  '@vue/eslint-config-prettier@10.1.0':
+    resolution: {integrity: sha512-J6wV91y2pXc0Phha01k0WOHBTPsoSTf4xlmMjoKaeSxBpAdsgTppGF5RZRdOHM7OA74zAXD+VLANrtYXpiPKkQ==}
     peerDependencies:
       eslint: '>= 8.21.0'
       prettier: '>= 3.0.0'
@@ -696,8 +696,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chart.js@4.4.4:
-    resolution: {integrity: sha512-emICKGBABnxhMjUjlYRR12PmOXhJ2eJjEHL2/dZlWjxRAZT1D8xplLFq5M0tMQK8ja+wBS/tuVEJB5C6r7VxJA==}
+  chart.js@4.4.6:
+    resolution: {integrity: sha512-8Y406zevUPbbIBA/HRk33khEmQPk5+cxeflWE/2rx1NJsjVWMPw/9mSP9rxHP5eqi6LNoPBVMfZHxbwLSgldYA==}
     engines: {pnpm: '>=8'}
 
   chokidar@3.6.0:
@@ -1288,8 +1288,8 @@ packages:
   primeicons@7.0.0:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
-  primevue@4.1.0:
-    resolution: {integrity: sha512-iR/RysaTnZeIG3UVxdhazU7MA8nEODOpHk8WSINwYU0WMsA/ZghbchHOD5a/LYuLuZa3V03j7mX4LMKroeV+ag==}
+  primevue@4.1.1:
+    resolution: {integrity: sha512-FeJkv7FhfePfUBoApW0qAhid6Znq18VgbGFZdmhUcxvOD49Y2Eo/k2Yn7ypPhRbRApWiaSRN0v/2G1I4AMj3xg==}
     engines: {node: '>=12.11.0'}
 
   proxy-from-env@1.1.0:
@@ -1337,8 +1337,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  sass@1.79.5:
-    resolution: {integrity: sha512-W1h5kp6bdhqFh2tk3DsI771MoEJjvrSY/2ihJRJS4pjIyfJCw0nTsxqhnrUzaLMOJjFchj8rOvraI/YUVjtx5g==}
+  sass@1.80.4:
+    resolution: {integrity: sha512-rhMQ2tSF5CsuuspvC94nPM9rToiAFw2h3JTrLlgmNw1MH79v8Cr3DH6KF6o6r+8oofY3iYVPUf66KzC8yuVN1w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -1481,8 +1481,8 @@ packages:
   vite-plugin-full-reload@1.2.0:
     resolution: {integrity: sha512-kz18NW79x0IHbxRSHm0jttP4zoO9P9gXh+n6UTwlNKnviTTEpOlum6oS9SmecrTtSr+muHEn5TUuC75UovQzcA==}
 
-  vite@5.4.9:
-    resolution: {integrity: sha512-20OVpJHh0PAM0oSOELa5GaZNWeDjcAvQjGXy2Uyr+Tp+/D2/Hdz6NLgpJLsarPTA2QJ6v8mX2P1ZfbsSKvdMkg==}
+  vite@5.4.10:
+    resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1818,26 +1818,26 @@ snapshots:
 
   '@primeuix/utils@0.2.0': {}
 
-  '@primevue/auto-import-resolver@4.1.0':
+  '@primevue/auto-import-resolver@4.1.1':
     dependencies:
-      '@primevue/metadata': 4.1.0
+      '@primevue/metadata': 4.1.1
 
-  '@primevue/core@4.1.0(vue@3.5.12)':
+  '@primevue/core@4.1.1(vue@3.5.12)':
     dependencies:
       '@primeuix/styled': 0.2.0
       '@primeuix/utils': 0.2.0
       vue: 3.5.12
 
-  '@primevue/icons@4.1.0(vue@3.5.12)':
+  '@primevue/icons@4.1.1(vue@3.5.12)':
     dependencies:
       '@primeuix/utils': 0.2.0
-      '@primevue/core': 4.1.0(vue@3.5.12)
+      '@primevue/core': 4.1.1(vue@3.5.12)
     transitivePeerDependencies:
       - vue
 
-  '@primevue/metadata@4.1.0': {}
+  '@primevue/metadata@4.1.1': {}
 
-  '@primevue/themes@4.1.0':
+  '@primevue/themes@4.1.1':
     dependencies:
       '@primeuix/styled': 0.2.0
 
@@ -1908,9 +1908,9 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@vitejs/plugin-vue@5.1.4(vite@5.4.9(sass@1.79.5))(vue@3.5.12)':
+  '@vitejs/plugin-vue@5.1.4(vite@5.4.10(sass@1.80.4))(vue@3.5.12)':
     dependencies:
-      vite: 5.4.9(sass@1.79.5)
+      vite: 5.4.10(sass@1.80.4)
       vue: 3.5.12
 
   '@vue/compiler-core@3.5.12':
@@ -1945,7 +1945,7 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/eslint-config-prettier@10.0.0(eslint@9.12.0(jiti@1.21.6))(prettier@3.3.3)':
+  '@vue/eslint-config-prettier@10.1.0(eslint@9.12.0(jiti@1.21.6))(prettier@3.3.3)':
     dependencies:
       eslint: 9.12.0(jiti@1.21.6)
       eslint-config-prettier: 9.1.0(eslint@9.12.0(jiti@1.21.6))
@@ -2075,7 +2075,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chart.js@4.4.4:
+  chart.js@4.4.6:
     dependencies:
       '@kurkle/color': 0.3.2
 
@@ -2431,10 +2431,10 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  laravel-vite-plugin@1.0.5(vite@5.4.9(sass@1.79.5)):
+  laravel-vite-plugin@1.0.5(vite@5.4.10(sass@1.80.4)):
     dependencies:
       picocolors: 1.1.0
-      vite: 5.4.9(sass@1.79.5)
+      vite: 5.4.10(sass@1.80.4)
       vite-plugin-full-reload: 1.2.0
 
   levn@0.4.1:
@@ -2628,12 +2628,12 @@ snapshots:
 
   primeicons@7.0.0: {}
 
-  primevue@4.1.0(vue@3.5.12):
+  primevue@4.1.1(vue@3.5.12):
     dependencies:
       '@primeuix/styled': 0.2.0
       '@primeuix/utils': 0.2.0
-      '@primevue/core': 4.1.0(vue@3.5.12)
-      '@primevue/icons': 4.1.0(vue@3.5.12)
+      '@primevue/core': 4.1.1(vue@3.5.12)
+      '@primevue/icons': 4.1.1(vue@3.5.12)
     transitivePeerDependencies:
       - vue
 
@@ -2693,7 +2693,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  sass@1.79.5:
+  sass@1.80.4:
     dependencies:
       '@parcel/watcher': 2.4.1
       chokidar: 4.0.1
@@ -2868,14 +2868,14 @@ snapshots:
       picocolors: 1.1.0
       picomatch: 2.3.1
 
-  vite@5.4.9(sass@1.79.5):
+  vite@5.4.10(sass@1.80.4):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.0
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.79.5
+      sass: 1.80.4
 
   vue-router@4.4.5(vue@3.5.12):
     dependencies:
