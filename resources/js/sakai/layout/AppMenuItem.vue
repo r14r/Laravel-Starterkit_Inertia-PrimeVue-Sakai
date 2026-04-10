@@ -38,7 +38,7 @@ onBeforeMount(() => {
 watch(
     () => layoutState.activeMenuItem,
     (newVal) => {
-        isActiveMenu.value = newVal === itemKey.value || newVal.startsWith(itemKey.value + '-');
+        isActiveMenu.value = newVal !== null && (newVal === itemKey.value || newVal.startsWith(itemKey.value + '-'));
     }
 );
 const itemClick = (event, item) => {
