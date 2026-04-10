@@ -16,7 +16,26 @@ import '@/sakai/assets/tailwind.css';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Sakai';
 
+// Resolve the initial Inertia page from the DOM, supporting both the Inertia v3
+// format (<script data-page="app" type="application/json">) and the legacy v2
+// format (<div id="app" data-page="...">).  Passing the result as the `page`
+// option prevents a "Cannot read properties of null (reading 'component')"
+// TypeError when the PHP vendor still ships inertiajs/inertia-laravel v2.
+function resolveInitialPage(id = 'app') {
+    if (typeof window === 'undefined') return undefined;
+    const scriptEl = document.querySelector(`script[data-page="${id}"][type="application/json"]`);
+    if (scriptEl?.textContent) {
+        try { return JSON.parse(scriptEl.textContent); } catch {}
+    }
+    const divEl = document.getElementById(id);
+    if (divEl?.dataset?.page) {
+        try { return JSON.parse(divEl.dataset.page); } catch {}
+    }
+    return undefined;
+}
+
 createInertiaApp({
+    page: resolveInitialPage(),
     title: (title) => `${title} - ${appName}`,
     resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
     setup({ el, App, props, plugin }) {
